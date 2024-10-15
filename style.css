@@ -1,0 +1,109 @@
+/* Global */
+
+html,body{
+
+}
+
+* {
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+
+/* Divisions */
+
+.bar {
+	top:0px;
+	
+	background:yellow;
+	padding: 7px 8px;
+	text-align: left;
+	z-index: 25;
+}
+
+.main {
+	padding: 15px;
+	margin: 20px;
+	z-index: 10;
+	
+
+}
+
+.sidebar {
+	padding: 15px;
+	background:#ffffe6;
+	z-index: 10;
+}
+
+
+/* Text formatting */
+
+h1	{
+	font-size:130%;
+	margin-top: 0px;
+	}
+	
+	
+p, li	{font-size:120%;}
+	
+a {
+	text-decoration: none;
+	color: black;
+	}
+a:hover {
+	background-color: yellow;
+	
+	}
+
+li {padding: 2px;}
+
+ul {margin-bottom: 10px;};
+	
+
+/* Tables */
+
+table {
+	margin: 0px auto;
+	margin-top: 5px;
+	}
+
+table, th, td {
+	border: 1px solid black;
+	border-spacing: 0px;
+	}
+
+th, td {
+	padding: 5px;
+	white-space: nowrap;
+	}	
+
+th {
+	background-color: #afdceb;
+	}
+
+tr {
+	background-color: #cae9f5;
+	}
+
+
+/* Buttons */
+	
+.btn {
+	background-color: yellow;
+	color: purple;
+	border: 1px solid purple;
+	padding: 4px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: purple;
+	color: yellow;
+}
+
