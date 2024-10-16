@@ -1,8 +1,16 @@
 /* Global */
 
 html,body{
+	background-color:powderblue;
 
 }
+
+.nav-link {
+  color: black;
+  background-color:#A9C5A0;
+ 
+}
+
 
 * {
 	margin:0;
@@ -16,7 +24,7 @@ html,body{
 .bar {
 	top:0px;
 	
-	background:yellow;
+	background:red;
 	padding: 7px 8px;
 	text-align: left;
 	z-index: 25;
@@ -52,7 +60,7 @@ a {
 	color: black;
 	}
 a:hover {
-	background-color: yellow;
+	background-color: #758173;
 	
 	}
 
